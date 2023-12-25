@@ -19,4 +19,10 @@ public class TemplateController {
 
         return "template/layout/layoutMain";
     }
+
+    @GetMapping("/layoutExtend")
+    public String layoutExtenda() {
+
+        return "template/layoutExtend/layoutExtendMain";
+    }
 }
